@@ -1,0 +1,11 @@
+var os = require('os');
+console.log("Platform:" + os.platform());
+console.log("Type of OS:" + os.type());
+console.log("Hostname:" + os.hostname());
+console.log("Release Version:" + os.release());
+console.log("Architecture:" + os.arch());
+console.log("Total memory in bytes:" + os.totalmem());
+console.log("Free Memory in bytes:" + os.freemem());
+var c = os.cpus();
+console.log("Total Number of Cpus:" + c.length);
+console.log(c);
